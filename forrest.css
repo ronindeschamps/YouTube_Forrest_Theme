@@ -17,21 +17,21 @@
 }
 
 * {
- color: rgba(255, 237, 179, 0.832);
+ color: rgba(255, 237, 179, 0.832) !important;
+
 }
 
 #container.style-scope.ytd-masthead {
- background-color: rgb(23, 37, 20);; 
+ background-color: rgb(23, 37, 20); 
 }
 
 #contents.style-scope.ytd-rich-grid-renderer {
- 
- background-color: rgb(53, 81, 53);
- border-radius: 3vw;
+ background-color: rgb(48, 64, 48);
+ border-radius: 10px;
 }
 
-#chips-wrapper.style-scope.ytd-feed-filter-chip-bar-renderer {
- background-color: rgb(23, 37, 20); 
+#chips-wrapper.ytd-feed-filter-chip-bar-renderer {
+ background-color: rgb(23, 37, 20) !important; 
 }
 
 .style-scope.ytd-app {
@@ -40,7 +40,51 @@
 
 .ytSearchboxComponentInputBox {
  background-color: #58685a !important;
- border-radius: 1vw 1vw 1vw 1vw;
- color:rgb(10, 74, 10)
+ border: 2px solid #000000 !important;
+ box-shadow: inset 0 0px 0px #000000 !important;
+}
+.ytSearchboxComponentSearchButton {
+ border: 2px solid #000000 !important;
+ background-color: #58685a !important;
+ width: 64px;
 }
 
+
+#right-arrow.style-scope.ytd-feed-filter-chip-bar-renderer::before {
+ background: linear-gradient(to left,
+ rgb(23, 37, 20) 20%,
+ rgb(23, 37, 20) 80%) !important;
+}
+
+#right-arrow-button.style-scope.ytd-feed-filter-chip-bar-renderer {
+ background-color: rgb(23, 37, 20) !important;  
+}
+
+#left-arrow.style-scope.ytd-feed-filter-chip-bar-renderer::after {
+ background: linear-gradient(to left,
+ rgb(23, 37, 20) 20%,
+ rgb(23, 37, 20) 80%) !important;
+}
+
+#left-arrow-button.style-scope.ytd-feed-filter-chip-bar-renderer {
+ background-color: rgb(23, 37, 20) !important;  
+}
+
+.yt-simple-endpoint.style-scope.ytd-mini-guide-entry-renderer {
+ background-color:rgb(48, 64, 48);
+ color: rgba(255, 237, 179, 0.832);
+ border-radius: 8px;
+}
+
+.title.style-scope.ytd-mini-guide-entry-renderer {
+ color: rgba(255, 237, 179, 0.832) !important;
+}
+
+.style-scope.ytd-multi-page-menu-renderer {
+ background-color:rgb(48, 64, 48) !important;
+}
+
+.ytSearchboxComponentSuggestionsContainer {
+ background-color:rgb(48, 64, 48) !important;
+ border: 0px, solid, black;
+}
