@@ -1,0 +1,46 @@
+::-webkit-scrollbar {
+ width: 0.6vw;
+}
+
+::-webkit-scrollbar-track {
+ background: rgba(251, 234, 190, 0); 
+}
+
+::-webkit-scrollbar-thumb {
+ background: rgba(22, 0, 73, 0.934);
+ border-radius: 3vw;;
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: rgba(41, 20, 90, 0.934); 
+}
+
+* {
+ color: rgba(255, 237, 179, 0.832);
+}
+
+#container.style-scope.ytd-masthead {
+ background-color: rgb(23, 37, 20);; 
+}
+
+#contents.style-scope.ytd-rich-grid-renderer {
+ 
+ background-color: rgb(53, 81, 53);
+ border-radius: 3vw;
+}
+
+#chips-wrapper.style-scope.ytd-feed-filter-chip-bar-renderer {
+ background-color: rgb(23, 37, 20); 
+}
+
+.style-scope.ytd-app {
+ background-color: rgb(23, 37, 20); 
+}
+
+.ytSearchboxComponentInputBox {
+ background-color: #58685a !important;
+ border-radius: 1vw 1vw 1vw 1vw;
+ color:rgb(10, 74, 10)
+}
+
